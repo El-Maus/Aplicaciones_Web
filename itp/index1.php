@@ -53,7 +53,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 	
 		<nav id="myTopNav" class="navtoggle">
 			<ul class="header_list">
-				<li class="active"><a href="http://localhost/itp/index1.php">INICIO</a></li>
+				<li class="active"><a href="http://localhost/project/itp/index1.php">INICIO</a></li>
 				<li><a href="it project/aboutus.html">NOSOTROS</a></li>
 				<li><a href="shoppingcart2/">PRODUCTOS</a></li>
                 <li><a href="#">Login</a>

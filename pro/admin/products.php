@@ -25,7 +25,7 @@
               <th>Precio</th>
               <th>Cantidad</th>
               <th>Categoria</th>
-              <th>Brand</th>
+              <th>Marca</th>
               <th>Accion</th>
             </tr>
           </thead>
@@ -69,9 +69,9 @@
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Brand Name</label>
+		        		<label>Marca</label>
 		        		<select class="form-control brand_list" name="brand_id">
-		        			<option value="">Select Brand</option>
+		        			<option value="">Seleccionar Marca</option>
 		        		</select>
 		        	</div>
         		</div>
@@ -91,7 +91,7 @@
         		</div>
             <div class="col-12">
               <div class="form-group">
-                <label>Producto Qty</label>
+                <label>Cantidad de Productos</label>
                 <input type="number" name="product_qty" class="form-control" placeholder="Enter Product Quantity">
               </div>
             </div>
@@ -103,13 +103,13 @@
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Palabras clave <small>(eg: apple, iphone, mobile)</small></label>
+		        		<label>Palabras clave <small>(ej: frutas, verduras..,)</small></label>
 		        		<input type="text" name="product_keywords" class="form-control" placeholder="Enter Product Keywords">
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Imagen Producto <small>(format: jpg, jpeg, png)</small></label>
+		        		<label>Imagen Producto <small>(formatos: jpg, jpeg, png)</small></label>
 		        		<input type="file" name="product_image" class="form-control">
 		        	</div>
         		</div>
@@ -147,9 +147,9 @@
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Brand Name</label>
+                <label>Marca</label>
                 <select class="form-control brand_list" name="e_brand_id">
-                  <option value="">Select Brand</option>
+                  <option value="">Seleccionar Marca</option>
                 </select>
               </div>
             </div>
@@ -163,13 +163,13 @@
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Description</label>
+                <label>Descripcion</label>
                 <textarea class="form-control" name="e_product_desc" placeholder="Enter product desc"></textarea>
               </div>
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Product Qty</label>
+                <label>Cantidad de Productos</label>
                 <input type="number" name="e_product_qty" class="form-control" placeholder="Enter Product Quantity">
               </div>
             </div>
@@ -181,13 +181,13 @@
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Palabras clave <small>(eg: apple, iphone, mobile)</small></label>
+                <label>Palabras clave <small>(ej: frutas, verduras..,)</small></label>
                 <input type="text" name="e_product_keywords" class="form-control" placeholder="Enter Product Keywords">
               </div>
             </div>
             <div class="col-12">
               <div class="form-group">
-                <label>Imagen <small>(format: jpg, jpeg, png)</small></label>
+                <label>Imagen <small>(formatos: jpg, jpeg, png)</small></label>
                 <input type="file" name="e_product_image" class="form-control">
                 <img src="../product_images/1.0x0.jpg" class="img-fluid" width="50">
               </div>

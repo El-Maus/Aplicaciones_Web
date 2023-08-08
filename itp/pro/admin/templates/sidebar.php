@@ -22,19 +22,19 @@
           <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'products.php') ? 'active' : ''; ?>" href="products.php">
               <span data-feather="shopping-cart"></span>
-              Products
+              Productos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'brands.php') ? 'active' : ''; ?>" href="brands.php">
               <span data-feather="shopping-cart"></span>
-              Brands
+              Marcas
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'brands.php') ? 'active' : ''; ?>" href="categories.php">
               <span data-feather="shopping-cart"></span>
-              Categories
+              Categorias
             </a>
           </li>
         </ul>
@@ -46,7 +46,7 @@
 
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Hello <?php echo $_SESSION["admin_name"]; ?></h1>
+        <h1 class="h2">Hola <?php echo $_SESSION["admin_name"]; ?></h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           
         </div>

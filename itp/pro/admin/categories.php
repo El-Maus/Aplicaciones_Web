@@ -9,10 +9,10 @@
 
       <div class="row">
       	<div class="col-10">
-      		<h2>Manage Category</h2>
+      		<h2>Gestor de Categorias</h2>
       	</div>
       	<div class="col-2">
-      		<a href="#" data-toggle="modal" data-target="#add_category_modal" class="btn btn-primary btn-sm">Add Category</a>
+      		<a href="#" data-toggle="modal" data-target="#add_category_modal" class="btn btn-primary btn-sm">Anadir Categoria</a>
       	</div>
       </div>
       
@@ -21,8 +21,8 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>Name</th>
-              <th>Action</th>
+              <th>Nombre</th>
+              <th>Accion</th>
             </tr>
           </thead>
           <tbody id="category_list">
@@ -49,7 +49,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Category</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Anadir Categoria</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -59,13 +59,13 @@
         	<div class="row">
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Category Name</label>
+		        		<label>Nombre de Categoria</label>
 		        		<input type="text" name="cat_title" class="form-control" placeholder="Enter Brand Name">
 		        	</div>
         		</div>
         		<input type="hidden" name="add_category" value="1">
         		<div class="col-12">
-        			<button type="button" class="btn btn-primary add-category">Add Category</button>
+        			<button type="button" class="btn btn-primary add-category">Anadir Categoria</button>
         		</div>
         	</div>
         	
@@ -81,7 +81,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Category</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Anadir Categoria</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -92,13 +92,13 @@
             <div class="col-12">
               <input type="hidden" name="cat_id">
               <div class="form-group">
-                <label>Category Name</label>
+                <label>Nombre de Categoria</label>
                 <input type="text" name="e_cat_title" class="form-control" placeholder="Enter Brand Name">
               </div>
             </div>
             <input type="hidden" name="edit_category" value="1">
             <div class="col-12">
-              <button type="button" class="btn btn-primary edit-category-btn">Update Category</button>
+              <button type="button" class="btn btn-primary edit-category-btn">Actualizar Categoria</button>
             </div>
           </div>
           
