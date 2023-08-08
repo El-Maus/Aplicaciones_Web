@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>LOGIN PAGE</title>
+      <title>LOGIN ADMIN</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="assets/css/normalize.css">
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -57,16 +57,17 @@ if(isset($_POST['submit'])){
          <div class="container">
             <div class="login-content">
                <div class="login-form mt-150">
+               <a href="http://localhost/project/itp/index1.php">Inicio</a>
                   <form method="post">
                      <div class="form-group">
-                        <label><b>USERNAME</b></label>
+                        <label><b>USUARIO</b></label>
                         <input type="text" name="username" class="form-control" placeholder="        " required>
                      </div>
                      <div class="form-group">
-                        <label><b>PASSWORD</b></label>
+                        <label><b>CONTRASENA</b></label>
                         <input type="password" name="password" class="form-control" placeholder="          " required>
                      </div>
-                     <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">SIGN IN</button>
+                     <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">ENTRAR</button>
 					</form>
 					<div class="field_error"><?php echo $msg?></div>
                </div>

@@ -9,7 +9,7 @@ if (! empty($_POST["login-btn"])) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>Login</TITLE>
+<TITLE>Login Cliente</TITLE>
 <link href="assets/css/phppot-style.css" type="text/css"
 	rel="stylesheet" />
 <link href="assets/css/user-registration.css" type="text/css"
@@ -20,11 +20,11 @@ if (! empty($_POST["login-btn"])) {
 	<section class="container">
 	<div class="phppot-container">
 		<div class="sign-up-container">
+		<a href="http://localhost/project/itp/index1.php">Inicio</a>
+			<!--
 			<div class="login-signup">
-				<a href="user-registration.php">Sign up</a>
-				<a href="http://localhost/itp/index1.php">Home</a>
-			
-			</div>
+				<a href="http://localhost/itp/index1.php">Inicio</a>
+			</div> -->
 			<div class="signup-align">
 				<form name="login" action="" method="post"
 					onsubmit="return loginValidation()">
@@ -36,7 +36,7 @@ if (! empty($_POST["login-btn"])) {
 				<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Username<span class="required error" id="username-info"></span>
+								Usuario<span class="required error" id="username-info"></span>
 							</div>
 							<input class="input-box-330" type="text" name="username"
 								id="username">
@@ -45,7 +45,7 @@ if (! empty($_POST["login-btn"])) {
 					<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Password<span class="required error" id="login-password-info"></span>
+								Contrasena<span class="required error" id="login-password-info"></span>
 							</div>
 							<input class="input-box-330" type="password"
 								name="login-password" id="login-password">
@@ -56,6 +56,7 @@ if (! empty($_POST["login-btn"])) {
 							id="login-btn" value="Login">
 					</div>
 				</form>
+				<a href="user-registration.php">Registrarse</a>
 			</div>
 		</div>
 	</div>

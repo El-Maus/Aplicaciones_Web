@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Foody</title>
+	<title>EShop</title>
 
 	<!-- Font-awesome -->
 	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
@@ -53,20 +53,20 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 	
 		<nav id="myTopNav" class="navtoggle">
 			<ul class="header_list">
-				<li class="active"><a href="http://localhost/itp/index1.php">HOME</a></li>
-				<li><a href="it project/aboutus.html">About</a></li>
-				<li><a href="shoppingcart2/">Products</a></li>
-                <li><a href="#">Log in</a>
+				<li class="active"><a href="http://localhost/itp/index1.php">INICIO</a></li>
+				<li><a href="it project/aboutus.html">NOSOTROS</a></li>
+				<li><a href="shoppingcart2/">PRODUCTOS</a></li>
+                <li><a href="#">Login</a>
                     <div class="sub-menu">
                         <ul>
                             <li><a href="admin/login.php">Admin</a></li>
-                            <li><a href="customer-login/home.php">Customer</a></li>
-                            <li><a href="http://localhost/pro/admin/index.php">Vendor</a></li>
+                            <li><a href="customer-login/home.php">Cliente</a></li>
+                            <li><a href="http://localhost/project/pro/admin/index.php">Vendedor</a></li>
                         </ul>
 					</div>
                 </li>
-				<li><a href="customer-login/user-registration.php">Sign up</a></li>
-				<li><a href="#c">Contact</a></li>
+				<li><a href="customer-login/user-registration.php">Signup</a></li>
+				<li><a href="#c">Contacto</a></li>
 			</ul>
 		</nav>
 		
@@ -74,7 +74,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 
 	<section id="hero-image">
 		<div class="hero-text">
-			<h1>GROCERY STORE</h1>
+			<h1>ESHOP</h1>
 		</div>
 
 	</section>
@@ -82,9 +82,9 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 		<div class="flex-container">
 			<div class="flex-item1">
 				<div class="content1">
-					<h1>Always Deliver More Than Expected</h1>
+					<h1>Solo lo mejor para ti</h1>
 						<div class="prap">
-						<p>Buy Your Best Product</p>
+						<p>Los mejores productos al mejor precio</p>
 						</div>
 				</div>
 			</div>
@@ -98,7 +98,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 	<section id="c">
 	<section class="contact">
 		<div class="header">
-			<h1>Contact Us</h1>
+			<h1>Contactanos</h1>
 		</div>
 		<!---header--->
 		<!---main--->
@@ -106,7 +106,7 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 				<div class="contact-w3">
 
 					<form action="send_form_email.php" method="post">
-						<label>Name</label>
+						<label>Nombre</label>
 						<input type="text" name="name" placeholder="Your name" required>
 						<div class="row">
 							<div class="contact-left-w3">
@@ -114,15 +114,15 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 									<input type="text" name="email" placeholder="Email address" required>
 							</div>
 							<div class="contact-right-w3l">
-								<label>Phone</label>
+								<label>Telefono</label>
 								<input type="text" name="phone" placeholder="Phone number" required>
 							</div>
 							<div class="clear"></div>
 						</div>
-						<label>Subject</label>
+						<label>Asunto</label>
 							<input type="text" name="subject" placeholder="Subject" required>
 						<div class="row1">
-							<label>Message</label>
+							<label>Mensaje</label>
 							<textarea placeholder="Message" name="message"></textarea>
 						</div>
 						<input type="submit" value="Send message">
@@ -130,7 +130,6 @@ box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.43);}
 				</div>
 			</div>
 		<div class="footer-w3-agile">
-			<p>PLEASE GIVE YOUR FEEDBACK</p>
 		</div>
 		<?php
 if(isset($_POST['email'])) {
@@ -223,26 +222,26 @@ Thank you for contacting us. We will be in touch with you very soon.
 <div class="form_box shadow">
  <form method="post" action="feed.php">
  <div class="heading">
-   YOUR FEEDBACK MATTERS
+   Agradecemos tu retroalimentacion :D
  </div>
  <br/>
- <p>What do you think about the quality of our products?</p>
+ <p>¿Cual ha sido tu experiencia?</p>
  <div>
    <div class="pic">
      <img src="bad.jpg" alt="" width='40' height='40'> <br/>
-     <input type="radio" name="quality" value="0"> Bad
+     <input type="radio" name="quality" value="0"> Mala
    </div>
    <div class="pic">
      <img src="neutral.jpg" alt="" width='40' height='40'> <br/>
-     <input type="radio" name="quality" value="1"> Okay
+     <input type="radio" name="quality" value="1"> Regular
    </div>
    <div class="pic">
      <img src="good.jpg" alt="" width='40' height='40'> <br/>
-     <input type="radio" name="quality" value="2"> Good
+     <input type="radio" name="quality" value="2"> Buena
    </div>
  </div>
  
- <p>Do you have any suggestion for us? </p>
+ <p>¿Alguna Sugerencia? </p>
  <textarea name=" suggestion" rows="8" cols="40"></textarea>
   <input type="submit" name="submit" value="Submit Form">
 </form>
