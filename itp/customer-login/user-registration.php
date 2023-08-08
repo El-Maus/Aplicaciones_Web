@@ -8,7 +8,7 @@ if (! empty($_POST["signup-btn"])) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>User Registration</TITLE>
+<TITLE>Registro</TITLE>
 <link href="assets/css/phppot-style.css" type="text/css"
 	rel="stylesheet" />
 <link href="assets/css/user-registration.css" type="text/css"
@@ -19,15 +19,13 @@ if (! empty($_POST["signup-btn"])) {
 	<section class="container">
 	<div class="phppot-container">
 		<div class="sign-up-container">
+		<a href="http://localhost/project/itp/index1.php">Inicio</a>
 			<div class="login-signup">
-				<a href="index.php">Login</a>
-				<a href="http://localhost/itp/index1.php">Home</a>
-			
 			</div>
 			<div class="">
 				<form name="sign-up" action="" method="post"
 					onsubmit="return signupValidation()">
-					<div class="signup-heading">Registration</div>
+					<div class="signup-heading">Registrarse</div>
 				<?php
     if (! empty($registrationResponse["status"])) {
         ?>
@@ -49,7 +47,7 @@ if (! empty($_POST["signup-btn"])) {
 					<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Username<span class="required error" id="username-info"></span>
+								Usuario<span class="required error" id="username-info"></span>
 							</div>
 							<input class="input-box-330" type="text" name="username"
 								id="username">
@@ -66,7 +64,7 @@ if (! empty($_POST["signup-btn"])) {
 					<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Password<span class="required error" id="signup-password-info"></span>
+								Contrasena<span class="required error" id="signup-password-info"></span>
 							</div>
 							<input class="input-box-330" type="password"
 								name="signup-password" id="signup-password">
@@ -75,7 +73,7 @@ if (! empty($_POST["signup-btn"])) {
 					<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Confirm Password<span class="required error"
+								Confirmar Contrasena<span class="required error"
 									id="confirm-password-info"></span>
 							</div>
 							<input class="input-box-330" type="password"
@@ -87,6 +85,7 @@ if (! empty($_POST["signup-btn"])) {
 							id="signup-btn" value="Sign up">
 					</div>
 				</form>
+				<a href="index.php">Login</a>
 			</div>
 		</div>
 	</div>
