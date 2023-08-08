@@ -16,7 +16,7 @@ if (isset($_SESSION["username"])) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>Welcome</TITLE>
+<TITLE>Bienvenido</TITLE>
 <link href="assets/css/phppot-style.css" type="text/css"
 	rel="stylesheet" />
 <link href="assets/css/user-registration.css" type="text/css"
@@ -25,10 +25,10 @@ if (isset($_SESSION["username"])) {
 <BODY>
 	<div class="phppot-container">
 		<div class="page-header">
-        <span class="login-signup"><a href="http://localhost/itp/index1.php">Home</a></span>
-			<span class="login-signup"><a href="logout.php">Logout</a></span>
+        <span class="login-signup"><a href="http://localhost/project/itp/index1.php">Inicio</a></span>
+			<span class="login-signup"><a href="logout.php">Salir</a></span>
 		</div>
-		<div class="page-content">Welcome <?php echo $username;?></div>
+		<div class="page-content">Hola <?php echo $username;?></div>
 	</div>
 </BODY>
 </HTML>

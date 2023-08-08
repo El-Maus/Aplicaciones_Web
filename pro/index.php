@@ -50,8 +50,8 @@ if(isset($_SESSION["uid"])){
 							<div class="panel-heading">
 								<div class="row">
 									<div class="col-md-3">Sl.No</div>
-									<div class="col-md-3">Product Image</div>
-									<div class="col-md-3">Product Name</div>
+									<div class="col-md-3">Imagen</div>
+									<div class="col-md-3">Nombre Producto</div>
 									<div class="col-md-3">Precio <?php echo CURRENCY; ?></div>
 								</div>
 							</div>
