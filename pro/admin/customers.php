@@ -8,7 +8,7 @@
 
       <div class="row">
       	<div class="col-10">
-      		<h2>Customers</h2>
+      		<h2>Clientes</h2>
       	</div>
       </div>
       
@@ -17,10 +17,10 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>Name</th>
+              <th>Nombre</th>
               <th>Email</th>
-              <th>Mobile</th>
-              <th>Address</th>
+              <th>Telefono</th>
+              <th>Direccion</th>
             </tr>
           </thead>
           <tbody id="customer_list">
@@ -47,7 +47,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Anadir Producto</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -57,7 +57,7 @@
         	<div class="row">
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Name</label>
+		        		<label>Nombre Producto</label>
 		        		<input type="text" name="product_name" class="form-control" placeholder="Enter Product Name">
 		        	</div>
         		</div>
@@ -71,39 +71,39 @@
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Category Name</label>
+		        		<label>Nombre Categoria</label>
 		        		<select class="form-control category_list" name="category_id">
-		        			<option value="">Select Category</option>
+		        			<option value="">Seleccionar Categoria</option>
 		        		</select>
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Description</label>
+		        		<label>Descripcion Producto</label>
 		        		<textarea class="form-control" name="product_desc" placeholder="Enter product desc"></textarea>
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Price</label>
+		        		<label>Precio Producto</label>
 		        		<input type="number" name="product_price" class="form-control" placeholder="Enter Product Price">
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Keywords <small>(eg: apple, iphone, mobile)</small></label>
+		        		<label>Palabras clave <small>(eg: apple, iphone, mobile)</small></label>
 		        		<input type="text" name="product_keywords" class="form-control" placeholder="Enter Product Keywords">
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Product Image <small>(format: jpg, jpeg, png)</small></label>
+		        		<label>Imagen <small>(format: jpg, jpeg, png)</small></label>
 		        		<input type="file" name="product_image" class="form-control">
 		        	</div>
         		</div>
         		<input type="hidden" name="add_product" value="1">
         		<div class="col-12">
-        			<button type="button" class="btn btn-primary add-product">Add Product</button>
+        			<button type="button" class="btn btn-primary add-product">Anadir Producto</button>
         		</div>
         	</div>
         	

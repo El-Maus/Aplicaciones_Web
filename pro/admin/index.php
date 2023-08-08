@@ -21,7 +21,7 @@ include "./templates/top.php";
 
       <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
 
-      <center><h1>Welcome to Vendor's Panel</h1></center>
+      <center><h1>Panel del vendedor</h1></center>
       <div class="table-responsive">
         
 </div>
