@@ -63,9 +63,9 @@
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Brand Name</label>
+		        		<label>Marca</label>
 		        		<select class="form-control brand_list" name="brand_id">
-		        			<option value="">Select Brand</option>
+		        			<option value="">Seleccionar Marca</option>
 		        		</select>
 		        	</div>
         		</div>
@@ -91,13 +91,13 @@
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Palabras clave <small>(eg: apple, iphone, mobile)</small></label>
+		        		<label>Palabras clave <small>(ej: frutas, verduras..,)</small></label>
 		        		<input type="text" name="product_keywords" class="form-control" placeholder="Enter Product Keywords">
 		        	</div>
         		</div>
         		<div class="col-12">
         			<div class="form-group">
-		        		<label>Imagen <small>(format: jpg, jpeg, png)</small></label>
+		        		<label>Imagen <small>(formato: jpg, jpeg, png)</small></label>
 		        		<input type="file" name="product_image" class="form-control">
 		        	</div>
         		</div>
